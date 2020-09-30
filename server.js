@@ -10,7 +10,7 @@ app.get("/", function(req, res, next) {
 app.use(express.static("public"));
 
 io.on("connection", function(client) {
-  console.log("Client connected...");
+  console.log("Client connected... sdas");
 
   client.on("join", function(data) {
     console.log(data);
